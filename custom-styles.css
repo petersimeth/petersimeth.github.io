@@ -1,0 +1,45 @@
+/* Custom page CSS
+-------------------------------------------------- */
+html, body {
+    position: relative;
+    min-height: 80%;
+    height: 80%;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.slogan {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+span.slogan {
+    color: #a23c38
+}
+
+.bg { 
+    background-image: url("assets/background.jpg");
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    color: #2840a9;
+}
+
+a:visited {
+    color: #172563;
+}
+
+a:hover {
+    color: #2880a9;
+}
+a:active {
+    color: #94a1a7;
+}
